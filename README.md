@@ -1,4 +1,4 @@
-# lottery-bu-admin
+# nuxt-element-starter
 
 > Nuxt.js project
 
