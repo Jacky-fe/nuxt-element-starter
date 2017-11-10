@@ -14,6 +14,7 @@ module.exports = {
     ]
   },
   build: {
+    vendor: ['axios', 'element-ui'],
     babel: {
       'plugins': [['component', [
         {
@@ -23,6 +24,9 @@ module.exports = {
       ]]]
     }
   },
+  plugins: [
+    '~/plugins/axios'
+  ],
   /*
   ** Global CSS
   */
